@@ -1,5 +1,5 @@
 # electronlyte
-electronlyte is Electron in rust. A cross-browser desktop UI that comes in at under 2MB (compare to the standard NodeJS Electron at over 120MB++)
+electronlyte is a better Electron, written in rust. A "safe" cross-browser desktop UI that comes in at under 2MB (compare to the standard NodeJS Electron at over 120MB++)
 ## How it works
 This project runs a type-safe, thread-safe, and performant...native Window(s) environment on MS Windows, Linux, and Mac OSX. The application main window is blazing fast, sans hacks, and is pure rust. In the window we inject the most lighweight version of a webview container - WebKit (Cocoa) on Mac OSX, WebKit (GTK) on Linux and MSHTML on Windows. Into the webview we inject your HTML5 / JavaScript application. Voila!
 ## Writing your HTML5 / JavaScript
