@@ -1,0 +1,6 @@
+[package]
+name = "electronlyte"
+version = "0.1.0"
+authors = ["andymans <https://github.com/andymans>"]
+
+[dependencies]
