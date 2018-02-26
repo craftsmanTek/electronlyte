@@ -5,7 +5,7 @@ This project runs a type-safe, thread-safe, and performant...native Window(s) en
 ## Writing your HTML5 / JavaScript
 If you are looking for performance, it's advisable to look at "no runtime" JS - i.e. prefer a solution like Svelte https://github.com/sveltejs/svelte over e.g. React or Angular; but you're free to choose.
 ## Writing your rust code
-You don't need to write any rust code at all if you don't want to; but you can if you need to. You may, for example want to run a local database, or use sockets, networking services etc., in a separate thread. With rust these will run reliably, and fast. Interopearability with your JavaScript is built-in and bi-directional. You can call rust code from your JS and you can call JS from rust.
+You don't need to write any rust code at all if you don't want to; but you can if you need to. You may, for example want to run a local database, or use sockets, networking services etc., in a separate thread. With rust these will run reliably, and fast. Interoperability with your JavaScript is built-in and bi-directional. You can call rust code from your JS and you can call JS from rust.
 ## Interop JS-to-rust
 Todo - here I'll write up the mechanism for exposing rust so that it can be called from JS.
 ## Interop rust-to-JS
